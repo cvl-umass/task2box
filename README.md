@@ -1,4 +1,18 @@
+<!-- ![Transformers have better explanations](media/banner.png) -->
+<div align="center"><img src=media/banner.png height="250"></div>
+
+<div align="center">
+
 # Task2Box: Box Embeddings for Modeling Asymmetric Task Relationships
+<!-- [[arXiv Paper]](https://arxiv.org/abs/2403.17173) <br/> -->
+[![arXiv preprint](https://img.shields.io/badge/arXiv-2403.17173-red)](https://arxiv.org/abs/2403.17173)
+[![CVPR paper](https://img.shields.io/badge/CVPR-2024-blue)]()
+[![project webpage](https://img.shields.io/badge/project%20webpage-8A2BE2)](https://rangeldaroya.github.io/projects/task2box)
+
+
+[Requirements](#requirements) | [Training Task2Box](#train-task2box) | [Evaluating Task2Box](#evaluate-task2box) | [Citation](#citation)
+
+</div>
 
 
 ## Requirements
@@ -67,3 +81,16 @@ The following will output the compiled results in a single file.
 python eval_taskonomy.py
 ```
 
+## Citation
+If you found this helpful, please cite our paper:
+
+```
+@misc{daroya2024task2box,
+      title={Task2Box: Box Embeddings for Modeling Asymmetric Task Relationships}, 
+      author={Rangel Daroya and Aaron Sun and Subhransu Maji},
+      year={2024},
+      eprint={2403.17173},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
